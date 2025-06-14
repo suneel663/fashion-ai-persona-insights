@@ -1,11 +1,10 @@
-
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
-import { Image, Video, Music, Hash, Clock, TrendingUp, Eye, Heart } from 'lucide-react';
+import { Image, Video, Music, Hash, Clock, TrendingUp, Eye, Heart, MessageCircle } from 'lucide-react';
 
 const topPerformingContent = [
   {
